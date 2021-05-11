@@ -5,7 +5,6 @@ body {
     align-items: center;
     height: 100vh;
     background-color: lightsteelblue;
-    
 }
 
 .loginBox {
@@ -29,10 +28,21 @@ h1 {
 }
 
 .userInput {
+    max-width: 450px;
     padding: 0px 15px 10px 15px;
     display:flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label {
+    padding-left: 2px;
+    color: darkslategrey;
 }
 
 @media (max-width: 425px) {
