@@ -10,24 +10,6 @@ body {
     
 }
 
-h1 {
-    font-size: 34px;
-    color: darkslategrey;
-    text-shadow: 2px 2px 0px #ffffff;
-}
-
-#cookies {
-    color: darkgreen;
-    transform: scale(.90);
-    text-shadow: 2px 2px 0px #ffffff;
-}
-
-#buttonStyle {
-    margin: 5px 5px 9px 5px;
-    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.40);
-}
-
-
 .loginBox {
     margin: 0;
     display: flex;
@@ -40,11 +22,10 @@ h1 {
     box-shadow: 8px 8px 5px 0px rgba(0,0,0,0.40);
 }
 
-.submission {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+h1 {
+    font-size: 34px;
+    color: darkslategrey;
+    text-shadow: 2px 2px 0px #ffffff;
 }
 
 .userInput {
@@ -58,4 +39,22 @@ h1 {
     .userInput {
         flex-direction: column;
     }
+}
+
+.submission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cookies {
+    color: darkgreen;
+    transform: scale(.90);
+    text-shadow: 2px 2px 0px #ffffff;
+}
+
+#buttonStyle {
+    margin: 5px 5px 9px 5px;
+    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.40);
 }
