@@ -1,11 +1,11 @@
 body {
     margin: 0;
     display: flex;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: gray;
+    width: 100vw;
     background-color: lightsteelblue;
     
 }
@@ -15,7 +15,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-style: solid;
+    color: gray;
     border-width: 5px;
     border-radius: 10px;
     background-color: gainsboro;
@@ -51,10 +53,10 @@ h1 {
 #cookies {
     color: darkgreen;
     transform: scale(.90);
-    text-shadow: 2px 2px 0px #ffffff;
+    text-shadow: 1px 1px 0px #ffffff;
 }
 
 #buttonStyle {
     margin: 5px 5px 9px 5px;
-    box-shadow: 2px 2px 1px 0px rgba(0,0,0,0.40);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.40);
 }
