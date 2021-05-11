@@ -1,12 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="ryan-byrne-login-ui-with-flexbox.css"> <!--Links the css style sheet to this html code-->
 </head>
+
 <body>
     
+    <div class="loginBox">
+        <h1>Login</h1> <!--header text-->
+        <form class="submission"> <!--add a site/location to upload the data to, # is a dead link but you can replace with an actual location-->
+            <div class="userInput">
+                <input type="text" placeholder="e-mail address" required> <!-- input box with placeholder text. "required" at the end makes input required before you can click the button to submit the data--> 
+                <input type="password" placeholder="password" required> <!--""-->  
+            </div>  
+            <label id="cookies"><input id="cookies" value="cookie data" type="checkbox" name="what-is-privacy" checked> Remember me</label> <!--checkbox with label that is linked by id. Multiple checkboxes or radio buttons can be grouped with the "name" parameter. Moving the text from the beginning to the end of the input line changes where it is placed on the screen in relation to the checkbox. Adding "value" gives the parameter something to send otherwise it just defaults to boolean statement (on/off) Adding checked makes the feature on by default-->
+            <button type="submit">Submit</button> <!--Adds a button that displays the work "Submit" to send the data to the form location-->
+        </form>
+    </div> <!--Genral tag to divide the subsections of my code to allow for individual styling. -->   
+
 </body>
+
 </html>
