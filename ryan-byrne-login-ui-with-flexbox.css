@@ -45,6 +45,10 @@ h1 {
     color: darkslategrey;
 }
 
+.inputGroup input {
+    border-style: transparent;
+}
+
 @media (max-width: 425px) {
     .userInput {
         flex-direction: column;
